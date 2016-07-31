@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <FrameLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="vertical">
+        
+
+        <EditText
+            android:id="@+id/registrazione_email"
+            android:layout_width="match_parent"
+            android:layout_height="?android:listPreferredItemHeight"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:hint="Email"/>
+
+        <EditText
+            android:id="@+id/registrazione_password"
+            android:layout_width="match_parent"
+            android:layout_height="?android:listPreferredItemHeight"
+            android:inputType="textPassword"
+            android:layout_marginBottom="16dp"
+            android:hint="Password"/>
+
+        <EditText
+            android:id="@+id/registrazione_nome"
+            android:layout_width="match_parent"
+            android:layout_height="?android:listPreferredItemHeight"
+            android:layout_marginBottom="16dp"
+            android:hint="Nome"/>
+
+        <EditText
+            android:id="@+id/registrazione_cognome"
+            android:layout_width="match_parent"
+            android:layout_height="?android:listPreferredItemHeight"
+            android:layout_marginBottom="16dp"
+            android:hint="Cognome"/>
+
+        <EditText
+            android:id="@+id/registrazione_citta"
+            android:layout_width="match_parent"
+            android:layout_height="?android:listPreferredItemHeight"
+            android:layout_marginBottom="16dp"
+            android:hint="Città" />
+
+        <EditText
+            android:id="@+id/registrazione_dataN"
+            android:layout_width="match_parent"
+            android:layout_height="?android:listPreferredItemHeight"
+            android:layout_marginBottom="16dp"
+            android:editable="false"
+            android:focusable="false"
+            android:hint="Data Nascita"/>
+
+        <Spinner
+            android:id="@+id/registrazione_sesso"
+            android:layout_width="match_parent"
+            android:layout_height="?android:listPreferredItemHeight"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/registrazione_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrati"
+            style="@style/buttonStyle"/>
+
+    </LinearLayout>
+       <include layout="@layout/progress_bar"/>
+   </FrameLayout>
+</ScrollView>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shareyour.antonio.sdcloud" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icona_180x180"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name" android:noHistory="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".RegistrazioneActivity"
+                  android:label="Registrati">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.shareyour.antonio.sdcloud.LoginActivity" />
+        </activity>
+
+        <activity android:name=".ListHallActiivty" android:label="Le mie iscrizioni">
+
+        </activity>
+
+        <activity android:name=".CategorieActivity" android:label="Categorie"></activity>
+        <activity android:name=".AmbitiActivity" android:label="Ambiti"></activity>
+        <activity android:name=".InteressiActivity" android:label="Interessi"></activity>
+        <activity android:name=".UtenteProfileActivity" android:label="Profilo Utente"></activity>
+        <activity android:name=".AmbitoActivity" android:label="Ambito"></activity>
+
+    </application>
+
+</manifest>

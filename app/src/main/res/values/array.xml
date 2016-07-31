@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sesso_field">
+        <item>Uomo</item>
+        <item>Donna</item>
+    </string-array>
+
+    <string-array name="navigation_item">
+        <item>Il mio Profilo</item>
+        <item>Modifica Iscrizioni</item>
+        <item>Logout</item>
+    </string-array>
+</resources>

@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="color">@color/blue</item>
+        <item name="colorPrimaryDark">@color/dark_blue</item>
+        <item name="android:actionBarStyle">@style/myActionBar</item>
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="myActionBar" parent="AppTheme">
+        <item name="android:background">@color/dark_blue</item>
+        <item name="android:actionMenuTextColor">@android:color/white</item>
+        <item name="android:windowNoTitle">false</item>
+    </style>
+
+    <style name="buttonStyle" parent="AppTheme">
+        <item name="android:background">@color/blue</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+</resources>

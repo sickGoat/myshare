@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="@android:style/Theme.Material.Light">
+        <!-- Customize your theme here. -->
+        <item name="android:color">@color/blue</item>
+        <item name="android:colorPrimaryDark">@color/dark_blue</item>
+        <item name="android:actionBarStyle">@style/myActionBar</item>
+    </style>
+
+    <style name="myActionBar" parent="AppTheme">
+        <item name="android:background">@color/dark_blue</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:windowNoTitle">false</item>
+    </style>
+
+    <style name="buttonStyle" parent="AppTheme">
+        <item name="android:background">@color/blue</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textAppearance">@android:style/TextAppearance</item>
+        
+    </style>
+
+</resources>

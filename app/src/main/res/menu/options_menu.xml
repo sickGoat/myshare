@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/mioProfiloMenu" android:title="Mio Profilo"></item>
+    <item android:id="@+id/mieIscrizioniMenu" android:title="Le mie iscrizioni"/>
+    <item android:id="@+id/logoutMenu" android:title="Logout"/>
+
+</menu>

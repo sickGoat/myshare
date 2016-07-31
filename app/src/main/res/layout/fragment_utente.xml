@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_weight="0.3">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="0.7">
+
+        <TextView
+            android:id="@+id/utente_nomeCognome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:textAppearance="?android:textAppearance"
+            android:text="NOME"/>
+
+        <TextView
+            android:id="@+id/utente_sesso"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="6dp"
+            android:textAppearance="?android:textAppearance"
+            android:layout_height="wrap_content"
+            android:text="sesso"/>
+
+        <TextView
+            android:id="@+id/utente_citta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:textAppearance="?android:textAppearance"
+            android:text="ciatta"/>
+
+        <TextView
+            android:id="@+id/utente_nascita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearance"
+            android:text="data" />
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:src="@drawable/user_android_50x50"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Iscrizioni"
+        style="?android:listSeparatorTextViewStyle"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/utente_iscrizioni"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Post"
+        style="?android:listSeparatorTextViewStyle"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/utente_post"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4">
+
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>
+
+    <include layout="@layout/progress_bar"/>
+</FrameLayout>

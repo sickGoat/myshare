@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Share Me</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_button">Login</string>
+    <string name="login_registrati">Registrati</string>
+    <string name="login_errorMessage">Email e Password errati</string>
+    <string name="login_insertInput">Inserisci Email e Password</string>
+    <string name="registrazione_inputError">Riempi tutti i campi</string>
+    <string name="date_dialog">Quando sei nato?</string>
+    <string name="commento_hint">Scrivi qualcosa</string>
+    <string name="post_hint">Spara...</string>
+    <string name="post_emptyText">Scrivi Qualcosa!</string>
+    <string name="interessi_utente">Interessi</string>
+    <string name="ambito_fragmentClassifica">Ultimi trend</string>
+    <string name="ambito_delete">Vuoi cancellarmi?</string>
+    <string name="no_iscrizioni">Non ci sono iscrizioni...</string>
+    <string name="dialog_classifica">Classifica %1$s</string>
+
+</resources>

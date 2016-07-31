@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Last Trends"
+            style="?android:listSeparatorTextViewStyle"/>
+
+        <ListView
+            android:id="@+id/ambito_classifica"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3">
+
+        </ListView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Post"
+            style="?android:listSeparatorTextViewStyle"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/ambito_post"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.7">
+
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+
+    <ImageButton android:id="@+id/addPost_button"
+        android:layout_width="@dimen/button_diameter"
+        android:layout_height="@dimen/button_diameter"
+        android:layout_gravity="end|bottom"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:layout_marginEnd="@dimen/activity_vertical_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin" android:tint="@android:color/white" android:background="@drawable/oval_ripple" android:stateListAnimator="@drawable/button_elevation"
+        android:elevation="@dimen/button_elevation_low"
+        android:src="@android:drawable/ic_input_add"/>
+
+    <include layout="@layout/progress_bar"/>
+</FrameLayout>
